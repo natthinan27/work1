@@ -58,4 +58,4 @@ if st.button("ทำนายผล"):
 else:
     st.write("ไม่แสดงข้อมูล")
 
-   st.image("./pic/12.jpg")
+   st.img("./pic/12.jpg")
