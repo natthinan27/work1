@@ -6,7 +6,10 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.header("Kairung")
+st.header("")
+
+st.image("./img/12.jpg")
+
 
 html_8 = """
 <div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
@@ -57,5 +60,3 @@ if st.button("ทำนายผล"):
    st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
-
-st.image("./pic/12.jpg")
