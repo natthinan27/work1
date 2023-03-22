@@ -1,4 +1,4 @@
-from nbformat import write
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -13,14 +13,16 @@ html_8 = """
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
 </div>
 """
+
 st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
-dt=pd.read_csv(./Data/iris.csv)
+dt=pd.read_csv("./Data/iris.csv")
+
 st.write(dt.head(10))
 
-dt1=dt['petal.length'].sum()
-dt2=dt['petal.width'].sum()
+dt1 = dt['petal.length'].sum()
+dt2 = dt['petal.width'].sum()
 dt3 = dt['sepal.length'].sum()
 dt4 = dt['sepal.width'].sum()
 
