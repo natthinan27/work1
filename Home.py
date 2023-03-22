@@ -57,3 +57,5 @@ if st.button("ทำนายผล"):
    st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
+
+   st.image("./pic/12.jpg")
